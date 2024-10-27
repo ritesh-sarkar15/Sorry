@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Heartfelt Apology</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">I'm So Sorry!</h1>
+    <p class="message">I know I messed up. I'm truly sorry for hurting your feelings. Please forgive me.</p>
+    <img src="Sorry Crying GIF - Sorry Crying Tears - Discover & Share GIFs.gif" alt="Cute Sticker" class="sticker">
+    <a href="t.me/RT1526" class="button">I Forgive You</a>
+  </div>
+  <style>
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+    body {
+      font-family: 'Cute Font', cursive;
+      /* Replace with a cute font */
+      background-color: #f8c3df;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .title {
+      font-size: 36px;
+      color: #990099;
+      text-shadow: 2px 2px 4px #e6e6fa;
+      animation: title-animation 2s infinite alternate;
+    }
+
+    .message {
+      font-size: 24px;
+      color: #660066;
+      margin-top: 20px;
+    }
+
+    .sticker {
+      width: 200px;
+      margin-top: 20px;
+      border-radius: 20%;
+    }
+
+    .button {
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+      width: 10rem;
+      text-decoration: none;
+      font-size: 22px;
+    }
+
+    .button:hover {
+      background-color: #ff1493;
+    }
+
+    @keyframes title-animation {
+      from {
+        transform: scale(1);
+      }
+
+      to {
+        transform: scale(1.1);
+      }
+    }
+  </style>
+  <script>
+    const button = document.querySelector('.button');
+
+    button.addEventListener('click', () => {
+      alert('Thank you for forgiving me! 💖');
+    });
+  </script>
+</body>
+
+</html>
